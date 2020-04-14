@@ -1,0 +1,75 @@
+{
+  "id": "f6162164-0dc6-4301-a426-d1ad36047733",
+  "name": "who created you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Shantam Sultania Created  this google assistant",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Shantam Sultania",
+          "formattedText": "You can contact him for these types of assists.",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn%3AANd9GcRyqBdG8k7STRd3gIws4M0nILGr0yzmz64pD9Tc41EJSpinjywu\u0026usqp\u003dCAU",
+            "accessibilityText": "shantam sultania"
+          },
+          "buttons": [
+            {
+              "title": "find him here",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/in/shantam-sultania-737084175/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "About Us"
+            },
+            {
+              "title": "Book an appointment"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "8a2dea7f-dac6-468c-b52e-500ffa97844f",
+    "data": [
+      {
+        "text": "need an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f8c7ef47-a79b-4528-81dd-a4196f59275f",
+    "data": [
+      {
+        "text": "schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1716e114-1de8-4827-a079-cb01bb33f7f2",
+    "data": [
+      {
+        "text": "book me an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9dc49e5-3a47-4fed-8159-494f20921aa8",
+    "data": [
+      {
+        "text": "appointment please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6bcebc4c-d8cb-473f-a518-fb9e174a99a0",
+    "data": [
+      {
+        "text": "book me an appoint with dr",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7da948c-120c-4791-8a73-9ccf424c4440",
+    "data": [
+      {
+        "text": "i would like to make an appointment please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9bec8096-4e6f-4444-b72f-33929972fa72",
+    "data": [
+      {
+        "text": "book an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb4cf7c9-292a-44d4-9eea-61aa64341375",
+    "data": [
+      {
+        "text": "set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2 pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

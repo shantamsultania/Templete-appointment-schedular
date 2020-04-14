@@ -1,0 +1,84 @@
+{
+  "id": "ada9fe36-6d78-4cbc-8040-5ece9276d51c",
+  "name": "book an appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "19188ff5-2b89-4b55-a8c6-07787f3b72c8",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what day would you like to book the appointment for ? you can come any day between Monday to Sunday We book appointment for a week only for advance."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cc5dc847-dd24-4308-b662-46714f1b64e7",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what time suites you ?"
+            },
+            {
+              "lang": "en",
+              "value": "what time you wanna come in ?"
+            },
+            {
+              "lang": "en",
+              "value": "can you can tell me the time ?"
+            },
+            {
+              "lang": "en",
+              "value": "which time suits you the most ?"
+            },
+            {
+              "lang": "en",
+              "value": "whats your favorable  timing ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "your appointment has been scheduled.  See you soon at the date - $date and Time is $time."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
